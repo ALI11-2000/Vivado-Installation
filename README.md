@@ -1,4 +1,3 @@
-﻿# Vivado Installation
 ## Windows
 Run the **xsetup.exe** file from the setup folder as an administrator. During installation select the **Vivado HL WebPACK**.
 ## Linux
