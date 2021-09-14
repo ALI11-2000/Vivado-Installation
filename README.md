@@ -15,15 +15,15 @@ sudo bash xsetup
  - After that review the installation summary and then install.
  - After installation is complete, open the terminal and open the **.bashrc** file using the following instruction.
 ```bash	
-	    cd
-	    vim ~/.bashrc
+cd
+vim ~/.bashrc
 ```
 You can use any other text editor instead of vim.
 	
 
  - The above commands will open the **.bashrc** file. Navigate to the end of the file and add the following commands.
 ```bash	
-		source /opt/Xilinx/Vivado/2018.2/settings64.sh
+source /opt/Xilinx/Vivado/2018.2/settings64.sh
 ```
 In case you changed installation directory instead of the default one then replace the **/opt/Xilinx** with that installation directory path.
 
@@ -31,7 +31,7 @@ In case you changed installation directory instead of the default one then repla
  
 
  - For installing the cable drivers type the following command on terminal.
-```bash		 
+```makefile	 
 sudo bash /opt/Xilinx/Vivado/2018.2/data/xicom/cable_drivers/lin64/install_script/install_drivers/install_drivers
 ```
 
